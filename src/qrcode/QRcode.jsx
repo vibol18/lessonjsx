@@ -6,7 +6,7 @@ export default function QRcode() {
       <h2>Scan This QR Code</h2>
 
       <QRCode
-        value="http://localhost:3000/form"
+        value="https://lessonjsx.vercel.app/form"
         size={250}
       />
 

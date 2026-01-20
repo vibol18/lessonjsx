@@ -1,16 +1,14 @@
-export default function Formpage() {
+export default function FormPage() {
   return (
-    <div style={{ padding: 20 }}>
-      <h2>User Form</h2>
-
+    <div style={{ padding: 20, maxWidth: 400, margin: "0 auto" }}>
+      <h2>Form</h2>
       <input
         type="text"
         placeholder="Name"
         style={{
-          display: "block",
           width: "100%",
-          marginBottom: 12,
-          padding: 8
+          padding: 10,
+          marginBottom: 12
         }}
       />
 
@@ -18,14 +16,18 @@ export default function Formpage() {
         type="email"
         placeholder="Email"
         style={{
-          display: "block",
           width: "100%",
-          marginBottom: 12,
-          padding: 8
+          padding: 10,
+          marginBottom: 12
         }}
       />
 
-      <button style={{ padding: 10, width: "100%" }}>
+      <button
+        style={{
+          width: "100%",
+          padding: 12
+        }}
+      >
         Submit
       </button>
     </div>
